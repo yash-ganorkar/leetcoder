@@ -1,9 +1,9 @@
-﻿using Leetcode_Solutions.Strings;
+﻿using Leetcode_Solutions.Arrays;
+using Leetcode_Solutions.Matrices;
+using Leetcode_Solutions.Strings;
+using Leetcode_Solutions.Lists;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Leetcode_Solutions.Trees;
 
 namespace Leetcode_Solutions
 {
@@ -47,6 +47,50 @@ namespace Leetcode_Solutions
 
             ReverseCharactersInString rc = new ReverseCharactersInString();
             Console.WriteLine(rc.ReverseCharacters("My name is Yash"));
+
+            CombinationOfSubsetOfSizeK cs = new CombinationOfSubsetOfSizeK();
+            cs.SubsetOfSizeK(new int[] {1,4,3,2,5}, 4);
+
+            SubsetsOfSizeK ssk = new SubsetsOfSizeK();
+            ssk.SubsetsOfK(new char[] { 'a', 'b', 'c', 'd', 'e' }, 4);
+
+            RotateMatrix rm = new RotateMatrix();
+            int[,] matrix = rm.RotateMatrixAntiClockWise(new int[,] { { 1,2,3,4}, { 5,6,7,8}, { 9,10,11,12}, { 13,14,15,16} });
+
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    Console.Write(matrix[i, j] + " ");
+                }
+
+                Console.WriteLine(' ');
+            }
+
+            rm.RotateMatrixUsingTranspose(new int[,] { { 1, 2, 3, 4 }, { 5, 6, 7, 8 }, { 9, 10, 11, 12 }, { 13, 14, 15, 16 } }, 4);
+
+            //SinglyLinkedList sll = new SinglyLinkedList();
+
+
+            //ListNode ls = sll.CreateLinkedList();
+
+            //sll.DisplayList(ls);
+            //Console.WriteLine("\nCount -> {0}", sll.GetCountIterative(ls));
+
+            //Console.WriteLine("\nCount -> {0}", sll.GetCountRecursive(ls));
+
+            //Console.WriteLine("\n3rd Node from End -> {0}", sll.NthNodeFromEnd(ls, 1));
+
+            //Console.WriteLine("\nMiddle Element -> {0}", sll.FindMiddleOfList(ls));
+
+            //ls = sll.DeleteNode(ls, 10);
+            //sll.DisplayList(ls);
+
+            //FindFirstandLastPositionofElementinSortedArray ffl = new FindFirstandLastPositionofElementinSortedArray();
+            //Console.WriteLine(ffl.SearchRange(new int[] {1,2,3,4,5,6,6,6,6,6},6));
+
+            CreateBinaryTree cbt = new CreateBinaryTree();
+            BinaryTree bt = cbt.CreateBTree();
 
             Console.ReadLine();
         }

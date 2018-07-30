@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\CombinationOfSubsetOfSizeK.cs" />
+    <Compile Include="Arrays\FindFirstandLastPositionofElementinSortedArray.cs" />
+    <Compile Include="Arrays\IncreasingSubSequence.cs" />
+    <Compile Include="Lists\ListNode.cs" />
+    <Compile Include="Lists\SinglyLinkedList.cs" />
+    <Compile Include="Matrices\RotateMatrix.cs" />
     <Compile Include="Matrices\ZeroMatrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,9 +63,13 @@
     <Compile Include="Strings\ReverseString.cs" />
     <Compile Include="Strings\ReverseWordsInAString.cs" />
     <Compile Include="Strings\StringRotation.cs" />
+    <Compile Include="Strings\SubsetsOfSizeK.cs" />
+    <Compile Include="Trees\BinaryTree.cs" />
+    <Compile Include="Trees\CreateBinaryTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
