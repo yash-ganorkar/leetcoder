@@ -44,17 +44,26 @@
   <ItemGroup>
     <Compile Include="Arrays\CombinationOfSubsetOfSizeK.cs" />
     <Compile Include="Arrays\FindFirstandLastPositionofElementinSortedArray.cs" />
+    <Compile Include="Arrays\FindPeakElement.cs" />
     <Compile Include="Arrays\IncreasingSubSequence.cs" />
+    <Compile Include="Arrays\SingleNumberIII.cs" />
+    <Compile Include="Arrays\SlidingWindowMaximum.cs" />
+    <Compile Include="Arrays\SubarrayProductLessThanK.cs" />
+    <Compile Include="Lists\AddTwoNumbersII.cs" />
+    <Compile Include="Lists\LinkedListComponents.cs" />
     <Compile Include="Lists\ListNode.cs" />
     <Compile Include="Lists\SinglyLinkedList.cs" />
+    <Compile Include="Matrices\FlippinganImage.cs" />
     <Compile Include="Matrices\RotateMatrix.cs" />
     <Compile Include="Matrices\ZeroMatrix.cs" />
+    <Compile Include="Others\IntegertoEnglishWords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\CheckForAnagram.cs" />
     <Compile Include="Strings\CheckIfStringIsPermutation.cs" />
     <Compile Include="Strings\FindUniqueCharacter.cs" />
     <Compile Include="Strings\FirstNonRepeatingCharacter.cs" />
+    <Compile Include="Strings\FractionAdditionAndSubtraction.cs" />
     <Compile Include="Strings\LongestCommonSubstring.cs" />
     <Compile Include="Strings\LongestPalindromicSubsequence.cs" />
     <Compile Include="Strings\PalindromePermutation.cs" />
@@ -64,8 +73,14 @@
     <Compile Include="Strings\ReverseWordsInAString.cs" />
     <Compile Include="Strings\StringRotation.cs" />
     <Compile Include="Strings\SubsetsOfSizeK.cs" />
+    <Compile Include="Strings\ToLowerCase.cs" />
+    <Compile Include="Trees\BFSTraversal.cs" />
     <Compile Include="Trees\BinaryTree.cs" />
+    <Compile Include="Trees\ConstructBinaryTreeInorderPreOrder.cs" />
     <Compile Include="Trees\CreateBinaryTree.cs" />
+    <Compile Include="Trees\DFSTraversal.cs" />
+    <Compile Include="Trees\LeafSimilarTrees.cs" />
+    <Compile Include="Trees\LevelOrderTraversalSpiralForm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

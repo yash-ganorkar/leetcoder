@@ -10,9 +10,9 @@ namespace Leetcode_Solutions.Trees
     {
         public int Value { get; set; }
 
-        public BinaryTree Left { get; private set; }
+        public BinaryTree Left { get; set; }
 
-        public BinaryTree Right { get; private set; }
+        public BinaryTree Right { get;  set; }
 
         public BinaryTree(int Value, BinaryTree Left, BinaryTree Right)
         {
